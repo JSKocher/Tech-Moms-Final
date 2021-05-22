@@ -1,0 +1,72 @@
+body {
+    background-color:rgb(202, 165, 129);
+    background-image: url("JHHome.jpg");
+    background-size: contain; 
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    
+}
+h1{
+    text-align: center;
+}
+head {
+    font-family:'Courier New', Courier, monospace ;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+img.JHMartyr{
+    max-width:800px;
+}
+blockquote {
+	background-image: url("JHHome.jpg");
+	border-left: none;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+  }
+  blockquote p {
+	display:inline;
+  }
+  .centeredimg {
+      display:flex;
+      justify-content:center;
+  }
+@media screen and (max-width:600px)
+{
+    nav {
+        flex-direction:column;
+    }
+     img.JHHat{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    img.JHMartyr{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        max-width:300px;
+    }
+    blockquote{
+        display:flex;
+    justify-content:center;
+    flex-direction:column;
+    }
+}
