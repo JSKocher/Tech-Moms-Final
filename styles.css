@@ -21,11 +21,12 @@ h1{
 }
 head {
     font-family:'Courier New', Courier, monospace ;
-    font-size: 3em;
+    font-size: 4em;
 }
 nav {
     display:flex;
     justify-content: space-around;
+    font-size: 3em;
     font-weight: bold;
 }
 nav a {
