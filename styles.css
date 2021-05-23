@@ -8,9 +8,14 @@ body {
     background-image: url("JHHome.jpg");
     background-size: contain; 
     background-repeat:no-repeat;
-    background-size: 100% 100%;
-    
+    background-size: 250% 250%;
 }
+ .about-body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }   
 h1{
     text-align: center;
 }
@@ -59,7 +64,7 @@ blockquote {
 @media screen and (max-width:600px)
 {
     nav {
-        flex-direction:column;
+        flex-direction:row;
     }
      img.JHHat{
         display: block;
